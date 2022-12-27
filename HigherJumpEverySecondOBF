@@ -1,0 +1,332 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Higher Speed Every Second", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab1 = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Eggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+---------------------------------------
+
+_G.autoFarm1 = true
+
+function autoFarm1()
+	while _G.autoFarm1 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-392.799988, 60, -2875, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Rainbow Lane | 1 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm1 = Value
+		autoFarm1()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm2 = true
+
+function autoFarm2()
+	while _G.autoFarm2 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-800.984497, 63.2659988, -10150.3955, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Candy Lane | 2 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm2 = Value
+		autoFarm2()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm3 = true
+
+function autoFarm3()
+	while _G.autoFarm3 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1207.87158, 63.2659988, -20687.9434, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Illumina Lane | 4 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm3 = Value
+		autoFarm3()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm4 = true
+
+function autoFarm4()
+	while _G.autoFarm4 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1611.35693, 63.1745186, -36030.7695, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Hell Lane | 6 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm4 = Value
+		autoFarm4()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm5 = true
+
+function autoFarm5()
+	while _G.autoFarm5 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2014.87903, 54.7050018, -50071.2266, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Void Lane | 8 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm5 = Value
+		autoFarm5()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm6 = true
+
+function autoFarm6()
+	while _G.autoFarm6 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2426, 63.2659988, -74814.6875, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Beach Lane | 10 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm6 = Value
+		autoFarm6()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm7 = true
+
+function autoFarm7()
+	while _G.autoFarm7 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2836.86499, 60.7050018, -104498.25, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Magma Lane | 12 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm7 = Value
+		autoFarm7()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm8 = true
+
+function autoFarm8()
+	while _G.autoFarm8 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3234.06128, 63.2659988, -135401.797, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Christmas Lane | 15 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm8 = Value
+		autoFarm8()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm9 = true
+
+function autoFarm9()
+	while _G.autoFarm9 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3657.38062, 63.2659988, -186359.719, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Toxic Lane | 18 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm9 = Value
+		autoFarm9()
+    end 
+})
+
+---------------------------------------
+
+_G.autoFarm10 = true
+
+function autoFarm10()
+	while _G.autoFarm10 == true do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4072.74121, 63.2659988, -257959.922, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Farm Gold Lane | 20 WIN(S)",
+	Callback = function(Value)
+		_G.autoFarm10 = Value
+		autoFarm10()
+    end 
+})
+
+---------------------------------------
+
+_G.autoRebirth = true
+
+function autoRebirth()
+	while _G.autoRebirth == true do
+		local args = {
+			[1] = "S_System_Rebirth",
+			[2] = {}
+		}
+		
+		game:GetService("ReplicatedStorage").Common.Library.Network.RemoteFunction:InvokeServer(unpack(args))
+	wait(0.3)
+	end
+end
+
+Tab1:AddToggle({
+	Name = "Auto Rebirth",
+	Callback = function(Value)
+		_G.autoRebirth = Value
+		autoRebirth()
+    end
+})
+
+---------------------------------------
+
+_G.autoOpenEgg1 = true
+
+function autoOpenEgg1()
+	while _G.autoOpenEgg1 == true do
+        local args = {
+            [1] = "S_Egg_Open",
+            [2] = {
+                [1] = "Candy",
+                [2] = false
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").Common.Library.Network.RemoteEvent:FireServer(unpack(args))        
+	wait(0.3)
+	end
+end
+
+Tab2:AddToggle({
+	Name = "Auto Open Candy Egg",
+	Callback = function(Value)
+		_G.autoOpenEgg1 = Value
+		autoOpenEgg1()
+    end 
+})
+
+---------------------------------------
+
+_G.autoOpenEgg2 = true
+
+function autoOpenEgg2()
+	while _G.autoOpenEgg2 == true do
+        local args = {
+            [1] = "S_Egg_Open",
+            [2] = {
+                [1] = "Basic",
+                [2] = false
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").Common.Library.Network.RemoteEvent:FireServer(unpack(args))      
+	wait(0.3)
+	end
+end
+
+Tab2:AddToggle({
+	Name = "Auto Open Basic Egg",
+	Callback = function(Value)
+		_G.autoOpenEgg2 = Value
+		autoOpenEgg2()
+    end 
+})
+
+---------------------------------------
+
+Tab2:AddButton({
+	Name = "Open Basic Egg",
+	Callback = function()
+        local args = {
+            [1] = "S_Egg_Open",
+            [2] = {
+                [1] = "Basic",
+                [2] = false
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").Common.Library.Network.RemoteEvent:FireServer(unpack(args))   
+  	end    
+})
+
+---------------------------------------
+
+Tab2:AddButton({
+	Name = "Open Candy Egg",
+	Callback = function()
+        local args = {
+            [1] = "S_Egg_Open",
+            [2] = {
+                [1] = "Candy",
+                [2] = false
+            }
+        }
+        
+        game:GetService("ReplicatedStorage").Common.Library.Network.RemoteEvent:FireServer(unpack(args))  
+  	end    
+})
+
+---------------------------------------
+
+Tab3:AddLabel("Credits: yawn#8324")
+Tab3:AddLabel("dsc.gg/communityitalia")
+
+---------------------------------------
+
+OrionLib:Init()
